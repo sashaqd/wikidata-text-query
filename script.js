@@ -8,7 +8,6 @@ document.getElementById('runQuery').addEventListener('click', function() {
     let dotCount = 1;
     let increasing = true;
 
-
     const updateLoadingAnimation = function() {
         // Update dot count
         if (increasing) {

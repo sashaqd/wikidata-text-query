@@ -11,6 +11,7 @@ body, html {
     flex-direction: column; 
 }
 
+
 .query-container {
     width: 1200%;
     max-width: 800px;
