@@ -2,22 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Wikidata Text Query</title> 
-    <link rel="stylesheet" href="style.css">
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/@triply/yasgui/build/yasgui.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://unpkg.com/@triply/yasgui/build/yasgui.min.js"></script>
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="./style.css">
+  </head>
 
-<body>
-    <div class="query-container">
-        <textarea id="queryBox" placeholder="Enter your query here..."></textarea>
-        <div class = 'button-container'>
-            <button id="runQuery">Run Query</button>
-            <button id="clearQuery">Clear</button> 
-        </div>
-        
-    </div>
-    <div id="resultsContainer" class="results-container">
-  
-    </div>
-    <script src="script.js"></script>
-</body>
+  <body>
+    <div id="yasgui"></div>
+    <script>
+      const yasgui = new Yasgui(document.getElementById("yasgui"));
+      
+    </script>
+  </body>
+
 </html>
