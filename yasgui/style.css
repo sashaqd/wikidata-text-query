@@ -1,0 +1,14 @@
+.button-container {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+.button-container button {
+    background-color: white;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: lightgrey;
+    width: 100px;
+    height: 30px;
+}
